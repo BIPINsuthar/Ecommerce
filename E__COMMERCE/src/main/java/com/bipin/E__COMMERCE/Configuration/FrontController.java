@@ -1,14 +1,15 @@
-package com.bipin.E_COMMERCE.Configuration;
+package com.bipin.E__COMMERCE.Configuration;
 
-import org.springframework.beans.factory.annotation.Configurable;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-@Configurable
+@Configuration
 public class FrontController extends AbstractAnnotationConfigDispatcherServletInitializer
 {
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
+		
 		return new Class[]{MvcConfig.class};
 	}
 

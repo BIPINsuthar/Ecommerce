@@ -1,0 +1,31 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+    
+   background-image: linear-gradient(to right, #ff5722, #ff9800);
+
+    
+}
+
+.card
+{
+   background:rgba(0,0,0,0.9) ;
+   box-sizing: border-box;
+
+}
+
+.card input[type="text"],.card input[type="password"]
+{
+    outline:none;
+    border: none;
+    border-bottom:2px solid violet ;
+    background-color:transparent;
+    color:white;
+   
+}
+img
+{
+	width:200px;
+	height:200px;
+}

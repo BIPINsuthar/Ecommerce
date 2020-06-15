@@ -1,5 +1,7 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+<form action="registration">
+<button>submit</button>
+</form>
 </body>
 </html>
